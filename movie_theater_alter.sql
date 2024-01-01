@@ -1,7 +1,3 @@
-
--- Movie > show_date > show_time
--- row num to row - ticket
-
 -- modify data type of 'hall' column in Tickets table: max number of varchar from 5 to 20 
 alter table tickets_n
 	alter column hall type varchar(20);
